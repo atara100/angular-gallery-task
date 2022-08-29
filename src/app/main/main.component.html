@@ -1,0 +1,13 @@
+<div class="container mt-5">
+    <div class="mb-3">
+        <label for="name" class="form-label">image name</label>
+        <input type="text" class="form-control" id="name" placeholder="type image name" #name>
+    </div>
+    <div class="mb-3">
+        <label for="url" class="form-label">image url</label>
+        <input type="url" class="form-control" id="url" placeholder="type image url" #url>
+    </div>
+    <div class="d-grid gap-2">
+        <button (click)="addImage()" class="btn btn-primary" type="button">add</button>
+    </div>
+</div>
